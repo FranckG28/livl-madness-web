@@ -1,3 +1,8 @@
+# Livl Madness Website
+
+This is the online home of the [Livl Madness](https://dub.sh/livl-madness-repo) game.
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
