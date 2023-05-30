@@ -8,7 +8,7 @@ export default function Home() {
       <Image src={livlmadness} width={200} alt="Livl logo" className="absolute top-5 left-5"></Image>
 
       <div className="w-full max-w-xl aspect-video bg-slate-300 rounded shadow flex items-center justify-center">
-        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-slate-500">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-12 h-12 text-blue-800">
           <path strokeLinecap="round" strokeLinejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.348a1.125 1.125 0 010 1.971l-11.54 6.347a1.125 1.125 0 01-1.667-.985V5.653z" />
         </svg>
       </div>
@@ -23,7 +23,7 @@ export default function Home() {
         </p>
       </div>
 
-      <div className="flex max-md:flex-col gap-3">
+      <div className="flex max-md:flex-col gap-5">
 
         <div class="indicator">
           <span class="indicator-item badge badge-secondary">new</span>
