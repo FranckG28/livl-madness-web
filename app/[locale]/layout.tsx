@@ -24,7 +24,7 @@ export default async function RootLayout({ children, params: { locale } }) {
 
   return (
     <html lang={locale} data-theme="winter">
-      <body className={inter.className + " h-screen"}>
+      <body className={inter.className + " container min-h-screen"}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {children}
         </NextIntlClientProvider>

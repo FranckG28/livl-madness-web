@@ -9,7 +9,7 @@ export default function Home() {
   const t = useTranslations("Index");
 
   return (
-    <main className="flex flex-col gap-8 items-center justify-center h-full px-5">
+    <main className="flex flex-col gap-8 items-center justify-center min-h-screen px-5">
       <Image
         src={livlmadness}
         width={200}
@@ -37,8 +37,7 @@ export default function Home() {
 
       <div className="bg-slate-300 rounded shadow overflow-hidden">
         <iframe
-          width="560"
-          height="315"
+          className="aspect-video w-96"
           src="https://www.youtube.com/embed/93hBMCC_aoE?si=maZaM9tL7QlynTSu"
           title="YouTube video player"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
